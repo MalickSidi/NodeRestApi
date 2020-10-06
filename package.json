@@ -1,0 +1,21 @@
+{
+  "name": "NodeRestApi",
+  "version": "1.0.0",
+  "description": "- profide Routes handling - profide User auth - profide Data persistent method - profide Logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalickSidi/NodeRestApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalickSidi/NodeRestApi/issues"
+  },
+  "homepage": "https://github.com/MalickSidi/NodeRestApi#readme"
+}
