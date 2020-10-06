@@ -2,6 +2,8 @@ const http = require('http');
 const url = require('url');
 const { StringDecoder } = require('string_decoder');
 
+const config = require('./lib/config.js');
+
 const httpServer = http.createServer((req, res) => server(req, res));
 
 const server = (req, res) => {
@@ -51,7 +53,7 @@ const server = (req, res) => {
 
 }    
 
-httpServer.listen(8080, () => console.log('server working on localhost:3030'))
+httpServer.listen(config.httpPort, () => console.log(`server working on localhost:${config.httpPort}`))
 
 const handlers = {};
 
